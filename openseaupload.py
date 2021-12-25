@@ -147,7 +147,7 @@ def main_program_loop():
         if(loop_file_format == "mp4"):
             wait_xpath('//*[@name="preview"]')
             imageUpload = driver.find_element_by_xpath('//*[@name="preview"]')
-            imagePath = os.path.abspath(file_path + "\\preview.png" )  # change folder here
+            imagePath = os.path.abspath(file_path + "\\preview.jpg" )  # change folder here
             imageUpload.send_keys(imagePath)
 
         name = driver.find_element_by_xpath('//*[@id="name"]')
