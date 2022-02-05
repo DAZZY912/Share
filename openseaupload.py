@@ -216,7 +216,6 @@ def main_program_loop():
         driver.switch_to.window(main_page)
         time.sleep(1)
 
-        start_num = start_num + 1
         print('NFT creation completed!')
 
 #####BUTTON ZONE#######
