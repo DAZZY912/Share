@@ -141,7 +141,7 @@ def main_program_loop():
 
         wait_xpath('//*[@id="media"]')
         imageUpload = driver.find_element_by_xpath('//*[@id="media"]')
-        imagePath = os.path.abspath(file_path + "\\" + str(start_num) + "." + loop_file_format)  # change folder here
+        imagePath = os.path.abspath(file_path + "\\" + "1.mp4")  # change folder here
         imageUpload.send_keys(imagePath)
         time.sleep(3)
         
