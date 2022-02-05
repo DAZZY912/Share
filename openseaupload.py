@@ -177,7 +177,7 @@ def main_program_loop():
 
         create = driver.find_element_by_xpath('//*[@id="__next"]/div[1]/main/div/div/section/div[2]/form/div/div[1]/span/button')
         driver.execute_script("arguments[0].click();", create)
-        time.sleep(75)
+        time.sleep(60)
         wait_css_selector("i[aria-label='Close']")
         cross = driver.find_element_by_css_selector("i[aria-label='Close']")
         cross.click()
